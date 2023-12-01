@@ -1,0 +1,100 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-top: 48px;
+    margin-bottom:56px;
+    color: aliceblue;
+    font-weight: bold;
+    text-shadow: 0 0 20px red, 0 0 20px red, 0 0 30px #00e6e6, 0 0 30px #00e6e6;
+    padding: 10px;
+}
+
+.hands {
+    display: flex;
+    margin: 16px auto;
+    padding: 0px 64px;
+}
+
+.myhand {
+    margin: auto;
+}
+
+.myhandpicture {
+    width: 280px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.vstext {
+    align-items: center;
+    margin: auto;
+}
+
+.enemyhand {
+   margin: auto; 
+}
+
+.enemyhandpicture {
+    width: 280px;
+    height: 280px;
+    border-radius: 5%;
+}
+
+.resulttext {
+    color: aliceblue;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.handchoice {
+    padding: 0px 240px;
+}
+.handchoice img {
+    width: 80px;
+    height: 80px;
+    border-radius: 20%;
+    transition: background-color 0.3s;
+}
+
+.pickgu {
+    padding: 16px;
+    margin: 0px 24px;
+}
+.pickgu:hover {
+    background-color: rgba(237, 202, 196, 0.2);
+}
+
+.pickchoki {
+    padding: 16px;
+    margin: 0px 24px;
+}
+.pickchoki:hover {
+    background-color: rgba(237, 202, 196, 0.2);
+}
+
+.pickpa {
+    padding: 16px;
+    margin: 0px 24px;
+}
+.pickpa:hover {
+    background-color: rgba(237, 202, 196, 0.2);
+}
+
+.confirm {
+    margin-top: 24px;
+}
+
+.confirmbutton {
+    color: aliceblue;
+    font-size: 24px;
+    border-style: solid;
+    display: inline;
+    padding: 8px 16px;
+}
+.confirmbutton:hover {
+    background-color: rgba(237, 202, 196, 0.2);
+}
